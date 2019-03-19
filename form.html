@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+<form  method="post" id="uploadform" action="php/upload.php">
+      
+    
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="form-group">
+                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" required>
+          </div>
+        </div>
+
+
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="form-group">
+            <input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" required>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="form-group">
+        <input type="text" name="prod_name" id="display_name" class="form-control input-lg" placeholder="Product Name" required>
+      </div>
+      <div class="form-group">
+        <input type="number" name="mobile" id="mobile" class="form-control input-lg" placeholder="Mobile Number" required>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-12">
+          <div class="form-group">
+            <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email" required>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-12">
+          <div class="form-group">
+            <select name="prod_cat" class="input-lg" required>  
+            <option> GLASS BOTTLE </option>
+              <option> SACHET </option>
+              <option> METAL </option>
+              <option> RUBBER BOTTLE </option>
+            </select>
+          </div>
+        </div>
+        
+      </div>
+
+     <!--  <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="form-group">
+            <input id="input-id" type="file" class="file input-lg" data-preview-file-type="text" name="prod_image">
+          </div>
+        </div>
+        
+      </div> -->
+
+      
+      
+      
+      <button type="submit" class="btn btn-primary" name="save" id="uploadSubmit">Submit</button>
+      
+    </form>
+
+</body>
+</html>
